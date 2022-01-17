@@ -25,7 +25,7 @@ export default function Page({}) {
           <Text fontSize={50} fontWeight={500}>
             Look for lettuce!
           </Text>
-          <Text>Tip: just type in &quot;lettuce&quot; in the search bar to see some examples (the search button isn't supposed to do anything ;))</Text>
+          <Text>Tip: just type in &quot;lettuce&quot; in the search bar to see some examples (the search button isn&apos;t supposed to do anything ;))</Text>
           <SearchForm></SearchForm>
         </VStack>
       </Box>
