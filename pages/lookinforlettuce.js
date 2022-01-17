@@ -11,9 +11,8 @@ export default function Page({}) {
         <meta name="description" content="Lettis - search" />
         <meta name="author" content="Dennis Wang" />
         <meta property="og:site_name" content="Lettis" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="../public/lettis.jpg" />
         <title>Lettis - Search</title>
+        <link rel="shortcut icon" href="/lettis.png" type="image/x-icon" />
       </Head>
       <Link href="/">
         <Button pos={"absolute"} left={3} top={3}>
@@ -26,6 +25,7 @@ export default function Page({}) {
           <Text fontSize={50} fontWeight={500}>
             Look for lettuce!
           </Text>
+          <Text>Tip: just type in "lettuce" in the search bar to see some examples (the search button isn't supposed to do anything ;))</Text>
           <SearchForm></SearchForm>
         </VStack>
       </Box>

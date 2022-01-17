@@ -13,6 +13,7 @@ export default function Page({}) {
         <meta property="og:site_name" content="Lettis" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="../public/lettis.jpg" />
+        <link rel="shortcut icon" href="/lettis.png" type="image/x-icon" />
         <title>Lettis - Create</title>
       </Head>
       <VStack>
