@@ -25,7 +25,7 @@ export default function Home() {
       <Text fontSize={20}>The premiere lettuce database</Text>
       <img src={'https://i.ytimg.com/vi/KTcKy_6TKk0/maxresdefault.jpg'} width={"50%"} />
       <HStack>
-        <Link href="/create"><Button href="/create">Create your own lettuce!</Button></Link>
+        <Link href="/create"><Button>Create your own lettuce!</Button></Link>
         <Link href="/lookinforlettuce" href="/lookinforlettuce"><Button>Browse all lettuce</Button></Link>
       </HStack>
       </VStack>
